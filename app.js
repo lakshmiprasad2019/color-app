@@ -10,7 +10,7 @@ morgan.token('req-headers', function(req,res){
 app.use(morgan(':method :url :status :req-headers'));
 app.set('view engine', 'ejs');
 
-// gets the style information from the env variables
+// gets the style information from the env variabless
 // {
 //   styleClass: "background-color: #000000; color: #FFFFFF",
 //   message: 'Hello',
